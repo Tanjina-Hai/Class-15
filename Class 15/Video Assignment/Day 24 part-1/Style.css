@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.table{
+    height: 300px;
+    width: 300px;
+    background-color:orange;
+    float: left;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    padding: 10px 30px;
+    display: inline-block;
+    background-color:tomato;
+    color:white;
+    border-left: 1px solid #ddd;
+}
+
+.room{
+    width: 900px;
+    margin: auto;
+    border: 1px solid red;
+    height: 600px;
+}
+.sofa{
+    width: 30%;
+    background-color: green;
+    height: 100px;
+    float: left;
+}
+.chair{
+    width: 70%;
+    background-color:Orange;
+    height: 100px;
+    float: right;
+}
+
+.room-2{
+    width: 900px;
+    margin: auto;
+    border: 1px solid red;
+    height: 600px;
+}
+
+.device{
+    width: 32%;
+    background-color: orange;
+    border: 1px solid blue;
+    height: 100px;
+    float: left;
+} 
+
+.home{}
+.cavinet{
+    width: 400px;
+    height: 200px;
+    background-color:rosybrown;
+    float: left;
+}
+.wardove{
+    width: 600px;
+    height: 400px;
+    background-color:blueviolet;
+    float: right;
+} 
+.home::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.slider{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
